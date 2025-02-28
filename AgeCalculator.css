@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 body{
     background-color: antiquewhite;
@@ -11,7 +10,6 @@ body{
     align-items: center;
     height: 100vh;
 }
-
 .age-container {
     border: 1px solid black;
     border-radius: 10px;
@@ -40,7 +38,6 @@ label{
     margin-bottom: 10px;
     border: none;
 }
-
 .calculate-btn{
     font-size: 1.2rem;
     width: 200px;
