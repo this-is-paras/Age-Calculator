@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: antiquewhite;
     display: flex;
@@ -11,7 +10,6 @@ body{
     align-items: center;
     height: 100vh;
 }
-
 .age-container {
     border: 1px solid black;
     border-radius: 10px;
@@ -21,19 +19,16 @@ body{
     text-align: center; 
     box-shadow: 0 0 10px 0 black;
 }
-
 .age-header{
     font-size: 2rem;
     font-weight: bold;
     margin: 10px;
 }
-
 label{
     font-size: 1.2rem;  
     margin-top: 10px;
     display: block;
 }
-
 .age-dob-input{
     width: 200px;
     height: 40px;
