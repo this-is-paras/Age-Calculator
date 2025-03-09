@@ -12,7 +12,6 @@ calculatebtn.addEventListener("click", () =>{
         console.log("dob",dob); 
         const dob_year = dob.getFullYear(); 
 
-
         console.log("dob_year",dob_year);   
         const now = new Date();  
 
