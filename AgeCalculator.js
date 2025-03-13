@@ -24,7 +24,5 @@ calculatebtn.addEventListener("click", () =>{
         console.log("age",age);  
         ageresult.innerHTML = `Your age is ${age}`;   
 
-        
-
     }   
 })    
