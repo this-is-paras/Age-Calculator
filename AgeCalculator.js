@@ -1,6 +1,6 @@
-  const inputbtn = document.querySelector(".age-dob-input");   
+ const inputbtn = document.querySelector(".age-dob-input");   
  const calculatebtn = document.querySelector(".calculate-btn");   
-const ageresult = document.querySelector(".age-result"); 
+ const ageresult = document.querySelector(".age-result"); 
  
 calculatebtn.addEventListener("click", () =>{ 
     if(inputbtn.value === ""){ 
@@ -12,7 +12,7 @@ calculatebtn.addEventListener("click", () =>{
         console.log("dob",dob);
         const dob_year = dob.getFullYear();  
 
-        console.log("dob_year",dob_year);    
+        console.log("dob_year",dob_year);     
         const now = new Date();   
 
         console.log("now",now);   
