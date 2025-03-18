@@ -17,7 +17,6 @@ calculatebtn.addEventListener("click", () =>{
 
         console.log("now",now);   
         const now_year = now.getFullYear();   
-
         console.log("now_year",now_year);   
         const age = now_year - dob_year;   
 
