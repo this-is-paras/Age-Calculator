@@ -1,7 +1,6 @@
 const inputbtn = document.querySelector(".age-dob-input");
 const calculatebtn = document.querySelector(".calculate-btn");
 const ageresult = document.querySelector(".age-result");
-
 calculatebtn.addEventListener("click", () => {
     if (inputbtn.value === "") {
         alert("Please enter your date of birth");
